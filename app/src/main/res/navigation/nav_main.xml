@@ -17,7 +17,7 @@
 
     <dialog
         android:id="@+id/fragment_add_event"
-        android:name="dev.diegodc.kalendarz.feature.home.AddEventFragment"
+        android:name="dev.diegodc.kalendarz.feature.add_event.AddEventFragment"
         tools:layout="@layout/fragment_add_event"
         android:label="add_event_fragment"
         />

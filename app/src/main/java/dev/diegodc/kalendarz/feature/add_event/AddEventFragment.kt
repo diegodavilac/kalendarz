@@ -1,18 +1,20 @@
-package dev.diegodc.kalendarz.feature.home
+package dev.diegodc.kalendarz.feature.add_event
 
 import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import dev.diegodc.kalendarz.R
+import androidx.fragment.app.viewModels
+import dagger.hilt.android.AndroidEntryPoint
 import dev.diegodc.kalendarz.databinding.FragmentAddEventBinding
+import dev.diegodc.kalendarz.feature.add_event.viewmodel.AddEventViewModel
 
+@AndroidEntryPoint
 class AddEventFragment : DialogFragment() {
 
     lateinit var binding : FragmentAddEventBinding
+
+    private val viewModel : AddEventViewModel by viewModels()
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return this.activity?.let {

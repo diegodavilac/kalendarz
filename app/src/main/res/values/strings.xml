@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kalendarz</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="there_is_no_customer">There is no customer :(</string>
+    <string name="type_of_service">Type of Service:</string>
+    <string name="date">Date:</string>
+    <string name="contact">Contact:</string>
+    <string name="there_is_no_events">There is no events :(</string>
+</resources>
